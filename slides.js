@@ -297,6 +297,7 @@ var slides = (function() {
 				case "SET_SLIDE":
 					setMode("presentation");
 					setSlide(message.payload.slide, message.payload.step);
+					persistState();
 					break;
 				case "SET_MODE":
 					setMode(message.payload.mode);
