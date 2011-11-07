@@ -1,6 +1,4 @@
-Keynote / Presentation template system 
-======================================
-written using HTML5/CSS3/Javascript
+Keynote / Presentation template system using HTML5/CSS3/Javascript
 ===================================
 
 
