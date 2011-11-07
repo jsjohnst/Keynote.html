@@ -1,0 +1,30 @@
+body.presentation {
+	width: 800px; 
+	height: 600px;
+	margin-left: -400px; 
+	margin-top: -300px;
+	position: absolute; 
+	top: 50%; 
+	left: 50%;
+	overflow: hidden;
+	background: #000;
+}
+
+body.presentation section {
+	position: absolute;
+	width: 100%; 
+	height: 100%;
+	left: -150%;
+	visibility: hidden;
+}
+
+body.presentation section[aria-selected] {
+	left: 0;
+	visibility: visible;
+	z-index: 1;
+}
+
+body.presentation section[aria-selected] ~ section {
+	left: +150%;
+	visibility: visible;
+}

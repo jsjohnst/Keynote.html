@@ -1,0 +1,80 @@
+body.presentation > section h1,
+body.presenter > section h1 {
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: normal;
+	font-size: 50px;
+	margin: 30px auto 0 15px;
+}
+
+body.presentation > section h2,
+body.presenter > section h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	font-size: 70px;
+	margin: 200px auto 0 auto;
+	width: 800px;
+}
+
+body.presentation > section h3,
+body.presenter > section h3 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	font-size: 50px;
+}
+
+body.presentation > section footer,
+body.presenter > section footer {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}
+
+body.presentation > section aside,
+body.presenter > section aside {
+	display: none;
+}
+
+body.presentation > section ul,
+body.presenter > section ul {
+    margin: 50px 100px;
+	width: 100%;
+}
+
+body.presentation > header,
+body.presenter > header {
+	display: none;
+}
+
+body.presentation > section .buildout > *,
+body.presenter > section .buildout > * { 
+	opacity: 1; 
+}
+
+body.presentation > section .buildout > *[aria-selected],
+body.presenter > section .buildout > *[aria-selected] { 
+	color: red; 
+	opacity: 1; 
+}
+
+body.presentation > section .buildout > *[aria-selected] ~ *,
+body.presenter > section .buildout > *[aria-selected] ~ * { 
+	opacity: 0.2; 
+}
+
+body.presentation > section .buildout,
+body.presenter > section .buildout {
+	visibility: hidden;
+}
+
+body.presentation > section .buildout[aria-selected],
+body.presenter > section .buildout[aria-selected] {
+	visibility: visible;
+}
+
+body.presentation > section,
+body.presenter > section {
+	font-size: 40px;
+}

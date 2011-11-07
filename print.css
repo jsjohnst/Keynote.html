@@ -1,0 +1,30 @@
+body:before {
+	content: "Slides: \A";
+	white-space: pre;
+	font-weight: bold;
+	font-size: 33px;
+}
+
+body > header {
+	display: none;
+}
+
+body > section {
+	border: 1px solid black;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px 10px 20px 50px;
+}
+
+/* Slide Notes */
+body > section aside:before {
+	content: "Notes: \A";
+	white-space: pre;
+	font-weight: bold;
+	margin-left: -10px;
+	font-style: normal;
+}
+body > section aside {
+	margin-left: 10px;
+	font-style: italic;
+}

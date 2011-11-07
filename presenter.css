@@ -1,0 +1,43 @@
+body.presenter > section {
+	display: none;
+	border: 1px solid black;
+	width: 800px;
+	height: 600px;
+	position: absolute;
+	top: 0px;
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	margin: -2em;
+}
+
+body.presenter > section[aria-selected] {
+	display: block;
+	left: 0px;
+}
+
+body.presenter > section[aria-selected] + section {
+	display: block;
+	right: 0px;
+}
+
+body.presenter section[aria-selected] aside:before {
+	content: "Notes: \A";
+	white-space: pre;
+	font-weight: bold;
+	margin-left: -1em;
+	font-style: normal;
+}
+
+body.presenter section[aria-selected] aside {
+	margin-top: 20px;
+	margin-left: 1em;
+	display: block;
+	position: absolute;
+	top: 700px;
+	width: 1600px;
+}
+
+body.presenter > header {
+	display: none;
+}

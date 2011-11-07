@@ -1,0 +1,34 @@
+body.overview > header,
+body.overview > section {
+    width: 750px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px 10px 20px 50px;
+}
+
+body.overview > section {
+	background: #ccc;
+}
+
+body.overview > header {
+	background: #aaa;
+}
+
+body.overview > header input {
+	float: right;
+	margin: 1em 1em 0 0;
+}
+
+/* Slide Notes */
+body.overview > section aside:before {
+	content: "Notes: \A";
+	white-space: pre;
+	font-weight: bold;
+	margin-left: -10px;
+	font-style: normal;
+}
+body.overview > section aside {
+	margin-top: 20px;
+	margin-left: 10px;
+	font-style: italic;
+}

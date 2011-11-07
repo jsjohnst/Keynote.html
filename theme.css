@@ -1,0 +1,18 @@
+body.presentation section,
+body.presenter section {
+  background: #a1dbff; /* Old browsers */
+  background: -moz-linear-gradient(top, #a1dbff 0%, #cbebff 53%, #f0f9ff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a1dbff), color-stop(53%,#cbebff), color-stop(100%,#f0f9ff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(top, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%); /* W3C */
+}
+
+body.presentation section {
+    -moz-transition: left 400ms linear 0s;
+    -webkit-transition: left 400ms linear 0s;
+    -ms-transition: left 400ms linear 0s;
+    transition: left 400ms linear 0s;
+}

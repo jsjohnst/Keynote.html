@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sample Presentation</title>
+	<link rel="stylesheet" href="common.css">
+	<link rel="stylesheet" href="slide_layout.css">
+	<link rel="stylesheet" href="overview.css">
+	<link rel="stylesheet" href="presentation.css">
+	<link rel="stylesheet" href="presenter.css">
+	<link rel="stylesheet" href="mobile.css">
+	<link rel="stylesheet" href="print.css" media="print">
+	<link rel="stylesheet" href="theme.css">
+</head>
+<body class="overview">
+	<header>
+		<input type="button" value="View Presentation" onclick="javascript: slides.start();">
+		<input type="button" value="Start in Presenter Mode" onclick="javascript: slides.start('presenter');">
+		<h1>Sample Presentation</h1>
+		<p>Some information about the presentation to describe it to people viewing via the web.</p>
+	</header>
+	<section>
+	    <h2>Centered Headline</h2>
+	    <h3>Centered Subheadline</h3>
+	    <footer>Footer text for slide</footer>
+		<aside>First slide of the presentation. This is some notes about it.</aside>
+	</section>
+	<section>
+		<h1>Top Left Headline</h1>
+	    <ul class="buildout">
+			<li>Bullet #1</li>
+			<li>Bullet #2</li>
+			<li>Bullet #3</li>
+		</ul>
+		<aside>Second slide of the presentation. This is some notes about it.</aside>
+	</section>
+	<section>
+		<h2>The End!</h2>
+		<aside>Questions?</aside>
+	</section>
+</body>
+<script src="helpers.js"></script>
+<script src="slides.js"></script>
+</html>
